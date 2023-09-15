@@ -16,10 +16,10 @@
 
 /* Styling for the book cover */
 .cover {
-    background-color: #FFD700;
+    background-color: #5bc4a1;
     padding: 40px;
     text-align: center;
-    border-bottom: 2px solid pink;
+    border-bottom: 2px solid rgb(233, 133, 233);
 }
 
 .cover h2 {
@@ -36,7 +36,7 @@
 /* Styling for individual pages within the book */
 .book-page {
     width: 100%;
-    background-color: pink;
+    background-color: rgb(218, 186, 191);
     display: none;
     padding: 20px;
     box-sizing: border-box;
