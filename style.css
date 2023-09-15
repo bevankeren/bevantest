@@ -1,0 +1,46 @@
+/* Basic styling for the interactive book */
+.interactive-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the book */
+.book {
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the book cover */
+.cover {
+    background-color: #FFD700;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 2px solid pink;
+}
+
+.cover h2 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+/* Styling for book pages */
+.book-pages {
+    padding: 20px;
+}
+
+/* Styling for individual pages within the book */
+.book-page {
+    width: 100%;
+    background-color: pink;
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    margin-bottom: 20px;
+}
